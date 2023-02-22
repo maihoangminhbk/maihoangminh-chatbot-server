@@ -1,0 +1,141 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - xin chào
+    - chào
+    - chào nha
+    - hê lô
+    - này
+    - xin chao
+    - chao may
+    - này bot
+    - chào buổi sáng
+    - chào buổi chiều
+    - chào buổi tối
+    - rất vui được gặp
+    - tôi cần giúp đỡ
+    - cho hỏi chút
+    - tôi cần hỏi
+    - bot ơi
+
+- intent: goodbye
+  examples: |
+    - tạm biệt
+    - bye
+    - bye bye
+    - bai
+    - bai bai
+    - hẹn gặp lại
+
+- intent: affirm
+  examples: |
+    - vâng
+    - yes
+    - đúng rồi
+    - đúng vậy
+    - tất nhiên rồi
+    - chính xác
+    - chuẩn
+    - đúng
+    - ừ
+    - uh
+    - ukm
+    - um
+
+- intent: deny
+  examples: |
+    - không
+    - no
+    - không bao giờ
+    - tôi không nghĩ vậy
+    - không phải
+    - không đâu
+    - sai
+    - sai rồi
+    - sai r
+
+- intent: bot_challenge
+  examples: |
+    - bạn có phải bot?
+    - tên bạn là gì
+    - bạn là ai
+    - mày là ai
+    - mày là bot
+    - tên mày là gì?
+
+- intent: task_guide
+  examples: |
+    - tôi muốn tạo task
+    - tạo task
+    - tạo việc cần làm
+    - tôi muốn thêm task
+    - thêm task
+    - thêm việc cần làm
+    - tôi muốn xem task
+    - xem task
+    - xem nhiệm vụ
+    - xem việc cần làm
+    - tôi muốn xem việc cần làm
+    - chỉnh sửa task
+    - chỉnh sửa nhiệm vụ
+    - chỉnh sửa việc cần làm
+    - tôi muốn xoá task
+    - tôi muốn xoá nhiệm vụ
+    - xoá nhiệm vụ
+    - xoá việc cần làm
+    - xoá task
+
+- intent: board_guide
+  examples: |
+    - tôi muốn tạo bảng
+    - tạo bảng
+    - tôi muốn tạo board
+    - tạo board
+    - tôi muốn thêm bảng
+    - thêm bảng
+    - tôi muốn xem bảng
+    - xem bảng
+    - xem board
+    - tôi muốn chỉnh sửa bảng
+    - chỉnh sửa bảng
+    - tôi muốn xoá bảng
+    - xoá bảng
+
+- intent: workplace_guide
+  examples: |
+    - tôi muốn tạo workplace
+    - tạo workplace
+    - tạo không gian làm việc
+    - tạo môi trường làm việc
+    - tạo môi trường
+    - tôi muốn xem workplace
+    - xem workplace
+    - xem môi trường làm việc
+    - tôi muốn chỉnh sửa workplace
+    - chỉnh sửa workplace
+    - tôi muốn chỉnh sửa workplace
+    - chỉnh sửa môi trường làm việc
+    - tôi muốn xoá môi trường làm việc
+    - xoá môi trường làm việc
+
+- intent: user_guide
+  examples: |
+    - tôi muốn tạo user
+    - tạo user
+    - tạo thêm user
+    - tạo tài khoản
+    - thêm tài khoản
+    - thêm mới tài khoản
+    - tôi muốn xem user
+    - xem user
+    - xem tài khoản
+    - tôi muốn chỉnh sửa tài khoản
+    - chỉnh sửa user
+    - tôi muốn chỉnh sửa user
+    - chỉnh sửa tài khoản
+    - tôi muốn xoá tài khoản
+    - xoá tài khoản
+    - tôi muốn thêm tài khoản vào môi trường làm việc
+    - tôi muốn thêm tài khoản vào bảng

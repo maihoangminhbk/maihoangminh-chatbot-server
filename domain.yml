@@ -1,0 +1,41 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - task_guide
+  - board_guide
+  - workplace_guide
+  - user_guide
+
+responses:
+  utter_greet:
+  - text: "Chào bạn, tôi có thể giúp gì ạ?"
+
+  utter_goodbye:
+  - text: "Bye bye"
+
+  utter_iamabot:
+  - text: "Tôi là Bot đây. Tôi sẽ hướng dẫn sử dụng giúp bạn."
+
+  utter_task_guide:
+  - text: "Bạn hãy chọn 'Bảng' (Board) ở thanh công cụ bên trái. Lúc này thông tin về bảng hiện ra, bạn có thể thực hiện thao tác thêm, sửa, xoá với các nhiệm vụ (task)."
+
+  utter_board_guide:
+  - text: "Bạn hãy chọn 'Bảng' (Board) ở thanh công cụ bên trái. Danh sách các bảng hiện ra. Lúc này bạn có thể thấy thông tin về bảng."
+
+  utter_workplace_guide:
+  - text: "Bạn hãy chọn 'Môi trường làm việc' (Workplace) ở thanh công cụ phía trên. Danh sách các môi trường làm việc hiện ra. Lúc này bạn có thể chọn môi trường làm việc bạn có."
+
+  utter_user_guide:
+  - text: "Bạn hãy chọn 'Ảnh đại diện' ở thanh công cụ phía trên để xem thông tin tài khoản cá nhân. Ngoài ra, trong mỗi Môi trường làm việc, bạn có thể chọn 'User' ở thanh công cụ bên trái để hiển thị danh sách người dùng."
+
+  utter_happy:
+  - text: "Vâng tôi đây, tôi có thể giúp được gì ạ?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

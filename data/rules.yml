@@ -1,0 +1,33 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Ask bot info
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Ask task
+  steps:
+  - intent: task_guide
+  - action: utter_task_guide
+
+- rule: Ask board
+  steps:
+  - intent: board_guide
+  - action: utter_board_guide
+
+- rule: Ask workplace
+  steps:
+  - intent: workplace_guide
+  - action: utter_workplace_guide
+
+- rule: Ask user
+  steps:
+  - intent: user_guide
+  - action: utter_user_guide
